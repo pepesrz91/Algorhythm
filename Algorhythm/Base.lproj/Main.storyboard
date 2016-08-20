@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K6a-yh-hva">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -19,25 +19,28 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-bx-R28">
                                 <rect key="frame" x="137" y="269" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IK9-5v-fzk"/>
+                                    <segue destination="QAn-Dv-6WJ" kind="push" id="u2Z-5N-6zV"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.24517104293569997" green="0.43541936289142991" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aze-bx-R28" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HN8-DU-rLK"/>
                             <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lJh-T1-i0B"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="71D-qr-cbN"/>
                     <connections>
-                        <outlet property="aButton" destination="aze-bx-R28" id="9B2-ad-aYx"/>
+                        <outlet property="aButton" destination="aze-bx-R28" id="kKP-Lq-PV2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162.66666666666666" y="396.18000000000001"/>
+            <point key="canvasLocation" x="645" y="386"/>
         </scene>
         <!--Playlist Detail View Controller-->
         <scene sceneID="vWE-Hf-Vib">
@@ -50,12 +53,31 @@
                     <view key="view" contentMode="scaleToFill" id="Bgo-QM-IsL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.67951049430244514" green="1" blue="0.80804960236301149" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="J4d-h0-A4u"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9xp-XU-CTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505" y="391"/>
+            <point key="canvasLocation" x="1037" y="391"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gtc-Yo-fji">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K6a-yh-hva" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Pf-Bg-fot">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Sr9-qG-XgI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IAO-CD-HL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="386"/>
         </scene>
     </scenes>
 </document>

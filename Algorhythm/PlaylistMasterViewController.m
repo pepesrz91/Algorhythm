@@ -23,9 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)buttonPressed:(id)sender {
-    
-    self.view.backgroundColor = [UIColor orangeColor];
-}
+
 
 @end
