@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0578B8E3CEF5C2721A4FAFDD264C9D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1553A933E52E9E6B2179AD7A8A6FE127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		402AC1D94457402512F3F47C8B16264C /* Pods-Algorhythm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0873153CACE7574D0B9D20487B36EAB0 /* Pods-Algorhythm-dummy.m */; };
+		4BC17F1152F22370DB0BA30B1B1B789A /* Pods-AlgorhythmUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBC03152F1E718666FEED3F4EA186D /* Pods-AlgorhythmUITests-dummy.m */; };
+		E8D2DF0161CE92CE74302E337869262E /* Pods-AlgorhythmTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819A620617AF10CA911EAF3BD1301D4 /* Pods-AlgorhythmTests-dummy.m */; };
+		EC7BA741D24FBA47BA21D9ED4EF4D286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073BBD6EE029606CE2549A1A8DD588E0 /* libPods-Algorhythm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Algorhythm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0873153CACE7574D0B9D20487B36EAB0 /* Pods-Algorhythm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Algorhythm-dummy.m"; sourceTree = "<group>"; };
+		175A8D06D6FDE162CF9E24F06C6665F6 /* Pods-Algorhythm-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Algorhythm-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C60A3E555218A7225D61D6E0DBA7832 /* Pods-AlgorhythmUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlgorhythmUITests-frameworks.sh"; sourceTree = "<group>"; };
+		219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		3DD8568ED7D8668A8AC8639D38CE844D /* Pods-AlgorhythmUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlgorhythmUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4120A8F4FD1D6365081F8B9E729D4B7B /* Pods-AlgorhythmTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlgorhythmTests-resources.sh"; sourceTree = "<group>"; };
+		494D5B188CBD2B16C07815724909DD24 /* Pods-AlgorhythmTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlgorhythmTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D85ED2A288CF61E21019F9720657924 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		62ADB89FE0590FFE025C0AB97AD21942 /* Pods-AlgorhythmTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlgorhythmTests-frameworks.sh"; sourceTree = "<group>"; };
+		71ACC1A84842EBE62C6390471B523BBA /* Pods-Algorhythm-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algorhythm-frameworks.sh"; sourceTree = "<group>"; };
+		743AA93476BD8412D2101C298677C262 /* Pods-Algorhythm-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Algorhythm-acknowledgements.plist"; sourceTree = "<group>"; };
+		75EE2186FAC7DE24ACD05965A68E378E /* Pods-Algorhythm-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algorhythm-resources.sh"; sourceTree = "<group>"; };
+		7819A620617AF10CA911EAF3BD1301D4 /* Pods-AlgorhythmTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlgorhythmTests-dummy.m"; sourceTree = "<group>"; };
+		78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		7BEA1C46ECBC40D5181E84499AAA357A /* libPods-AlgorhythmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2382C2ED7AD73DA99BB19E0F476251 /* Pods-AlgorhythmUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlgorhythmUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA2E463FE265C5E7331962BA71ED2C48 /* Pods-Algorhythm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algorhythm.release.xcconfig"; sourceTree = "<group>"; };
+		B2B3B0CDCE2B9486265AE5C765893BCB /* Pods-AlgorhythmTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlgorhythmTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8D7BED4C9EDECD6BE78312FC6D65A02 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		BF16113FC74084CCE0C2F29E549DF2D2 /* Pods-AlgorhythmUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlgorhythmUITests-resources.sh"; sourceTree = "<group>"; };
+		C74FCAC5F7C7B3152D82A70D832175E3 /* Pods-AlgorhythmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlgorhythmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9DC1FCFE2C0246CDAC202BD85547ACF /* Pods-AlgorhythmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlgorhythmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D256A5391C664CBE77AD6932C53A28CE /* Pods-AlgorhythmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlgorhythmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D451266073224A05775BB3F2B2B705 /* libPods-AlgorhythmUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D970D718748AAE4AA9F3741BC9C91075 /* Pods-AlgorhythmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlgorhythmTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		DFDBC03152F1E718666FEED3F4EA186D /* Pods-AlgorhythmUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlgorhythmUITests-dummy.m"; sourceTree = "<group>"; };
+		E2FE76BDDA8CCE99A5FA5D70F5BC4C5A /* Pods-Algorhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algorhythm.debug.xcconfig"; sourceTree = "<group>"; };
+		E902D6A1780C90DA8D9775A9551AE680 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		FAF822D2C02C424982832435D7291DB1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C619C7A91E495B02F63108F7EDC6D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0578B8E3CEF5C2721A4FAFDD264C9D52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517C33D1DE1CB484D78DD6A6EA0E0F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BA741D24FBA47BA21D9ED4EF4D286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D734C4AA315A06ED494F1D98BF1392CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1553A933E52E9E6B2179AD7A8A6FE127 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B1C74E5FD4ED629816A38DE27678636 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C7EA4DFC13E121D61E8D11FA58BFA /* Pods-Algorhythm */,
+				DD38B1E8CC79EA2CAE4106D16F4EB980 /* Pods-AlgorhythmTests */,
+				CB14413834A017AABA598223989F9834 /* Pods-AlgorhythmUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */,
+				17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */,
+				76CC1C8D9CD798D689BCD05C98FE3EAD /* FirebaseInstanceID */,
+				AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */,
+				D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */,
+				1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122442F85AC0EEF686F286D9DE35D0A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF822D2C02C424982832435D7291DB1 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				122442F85AC0EEF686F286D9DE35D0A1 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1F3C7EA4DFC13E121D61E8D11FA58BFA /* Pods-Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				175A8D06D6FDE162CF9E24F06C6665F6 /* Pods-Algorhythm-acknowledgements.markdown */,
+				743AA93476BD8412D2101C298677C262 /* Pods-Algorhythm-acknowledgements.plist */,
+				0873153CACE7574D0B9D20487B36EAB0 /* Pods-Algorhythm-dummy.m */,
+				71ACC1A84842EBE62C6390471B523BBA /* Pods-Algorhythm-frameworks.sh */,
+				75EE2186FAC7DE24ACD05965A68E378E /* Pods-Algorhythm-resources.sh */,
+				E2FE76BDDA8CCE99A5FA5D70F5BC4C5A /* Pods-Algorhythm.debug.xcconfig */,
+				AA2E463FE265C5E7331962BA71ED2C48 /* Pods-Algorhythm.release.xcconfig */,
+			);
+			name = "Pods-Algorhythm";
+			path = "Target Support Files/Pods-Algorhythm";
+			sourceTree = "<group>";
+		};
+		1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		2CDE59F0BC63160E41CADFFC4A19B702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073BBD6EE029606CE2549A1A8DD588E0 /* libPods-Algorhythm.a */,
+				7BEA1C46ECBC40D5181E84499AAA357A /* libPods-AlgorhythmTests.a */,
+				D2D451266073224A05775BB3F2B2B705 /* libPods-AlgorhythmUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E1E5C624A451F2216F2E980FA66DEE5 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4D85ED2A288CF61E21019F9720657924 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		6FF8BEBD4B336F1556D0507DDD7AE186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D7BED4C9EDECD6BE78312FC6D65A02 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76CC1C8D9CD798D689BCD05C98FE3EAD /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				E902D6A1780C90DA8D9775A9551AE680 /* FIRInstanceID.h */,
+				6FF8BEBD4B336F1556D0507DDD7AE186 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */,
+				2CDE59F0BC63160E41CADFFC4A19B702 /* Products */,
+				0B1C74E5FD4ED629816A38DE27678636 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB14413834A017AABA598223989F9834 /* Pods-AlgorhythmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C2382C2ED7AD73DA99BB19E0F476251 /* Pods-AlgorhythmUITests-acknowledgements.markdown */,
+				3DD8568ED7D8668A8AC8639D38CE844D /* Pods-AlgorhythmUITests-acknowledgements.plist */,
+				DFDBC03152F1E718666FEED3F4EA186D /* Pods-AlgorhythmUITests-dummy.m */,
+				1C60A3E555218A7225D61D6E0DBA7832 /* Pods-AlgorhythmUITests-frameworks.sh */,
+				BF16113FC74084CCE0C2F29E549DF2D2 /* Pods-AlgorhythmUITests-resources.sh */,
+				C74FCAC5F7C7B3152D82A70D832175E3 /* Pods-AlgorhythmUITests.debug.xcconfig */,
+				C9DC1FCFE2C0246CDAC202BD85547ACF /* Pods-AlgorhythmUITests.release.xcconfig */,
+			);
+			name = "Pods-AlgorhythmUITests";
+			path = "Target Support Files/Pods-AlgorhythmUITests";
+			sourceTree = "<group>";
+		};
+		D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		DD38B1E8CC79EA2CAE4106D16F4EB980 /* Pods-AlgorhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				494D5B188CBD2B16C07815724909DD24 /* Pods-AlgorhythmTests-acknowledgements.markdown */,
+				B2B3B0CDCE2B9486265AE5C765893BCB /* Pods-AlgorhythmTests-acknowledgements.plist */,
+				7819A620617AF10CA911EAF3BD1301D4 /* Pods-AlgorhythmTests-dummy.m */,
+				62ADB89FE0590FFE025C0AB97AD21942 /* Pods-AlgorhythmTests-frameworks.sh */,
+				4120A8F4FD1D6365081F8B9E729D4B7B /* Pods-AlgorhythmTests-resources.sh */,
+				D256A5391C664CBE77AD6932C53A28CE /* Pods-AlgorhythmTests.debug.xcconfig */,
+				D970D718748AAE4AA9F3741BC9C91075 /* Pods-AlgorhythmTests.release.xcconfig */,
+			);
+			name = "Pods-AlgorhythmTests";
+			path = "Target Support Files/Pods-AlgorhythmTests";
+			sourceTree = "<group>";
+		};
+		E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E5C624A451F2216F2E980FA66DEE5 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37A0C45CEF166F6D86269949B4B409B /* Pods-AlgorhythmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F47C638F99D5600B38CD7A948A944A /* Build configuration list for PBXNativeTarget "Pods-AlgorhythmUITests" */;
+			buildPhases = (
+				8362EE6C3EC7D16F915041D329FFD166 /* Sources */,
+				517C33D1DE1CB484D78DD6A6EA0E0F1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AlgorhythmUITests";
+			productName = "Pods-AlgorhythmUITests";
+			productReference = D2D451266073224A05775BB3F2B2B705 /* libPods-AlgorhythmUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC005A7C3EE5BBBCA5391287B5DE7CCA /* Pods-AlgorhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DAF6F043B9B53F5A76DDF7691B6E28 /* Build configuration list for PBXNativeTarget "Pods-AlgorhythmTests" */;
+			buildPhases = (
+				815A8489CF8CD650A199CFAD7D900E92 /* Sources */,
+				0C619C7A91E495B02F63108F7EDC6D98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AlgorhythmTests";
+			productName = "Pods-AlgorhythmTests";
+			productReference = 7BEA1C46ECBC40D5181E84499AAA357A /* libPods-AlgorhythmTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F32BDF1F616813B3E81876F982C31523 /* Pods-Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9CD1039A56C25B2E25753E802F794B /* Build configuration list for PBXNativeTarget "Pods-Algorhythm" */;
+			buildPhases = (
+				975C9DF23AEE166647516C4ED27A34F1 /* Sources */,
+				D734C4AA315A06ED494F1D98BF1392CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Algorhythm";
+			productName = "Pods-Algorhythm";
+			productReference = 073BBD6EE029606CE2549A1A8DD588E0 /* libPods-Algorhythm.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2CDE59F0BC63160E41CADFFC4A19B702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32BDF1F616813B3E81876F982C31523 /* Pods-Algorhythm */,
+				DC005A7C3EE5BBBCA5391287B5DE7CCA /* Pods-AlgorhythmTests */,
+				C37A0C45CEF166F6D86269949B4B409B /* Pods-AlgorhythmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815A8489CF8CD650A199CFAD7D900E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D2DF0161CE92CE74302E337869262E /* Pods-AlgorhythmTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8362EE6C3EC7D16F915041D329FFD166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC17F1152F22370DB0BA30B1B1B789A /* Pods-AlgorhythmUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975C9DF23AEE166647516C4ED27A34F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402AC1D94457402512F3F47C8B16264C /* Pods-Algorhythm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		204B4E0435068202B7649D5B713061EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74FCAC5F7C7B3152D82A70D832175E3 /* Pods-AlgorhythmUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2BC21316251A11D72C25D5467E9B650E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DC1FCFE2C0246CDAC202BD85547ACF /* Pods-AlgorhythmUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82FBC4BA4F4DBC5C0FFD6A1A114595E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D256A5391C664CBE77AD6932C53A28CE /* Pods-AlgorhythmTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		857AB685ACB802F82966F0CADC8FFBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FE76BDDA8CCE99A5FA5D70F5BC4C5A /* Pods-Algorhythm.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AFE82FB3ADFDA52C53FC2E2528668CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D970D718748AAE4AA9F3741BC9C91075 /* Pods-AlgorhythmTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BD66D597504EB8D1BBD20D2D3229068A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2E463FE265C5E7331962BA71ED2C48 /* Pods-Algorhythm.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DAF6F043B9B53F5A76DDF7691B6E28 /* Build configuration list for PBXNativeTarget "Pods-AlgorhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FBC4BA4F4DBC5C0FFD6A1A114595E8 /* Debug */,
+				AFE82FB3ADFDA52C53FC2E2528668CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F47C638F99D5600B38CD7A948A944A /* Build configuration list for PBXNativeTarget "Pods-AlgorhythmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B4E0435068202B7649D5B713061EC /* Debug */,
+				2BC21316251A11D72C25D5467E9B650E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9CD1039A56C25B2E25753E802F794B /* Build configuration list for PBXNativeTarget "Pods-Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857AB685ACB802F82966F0CADC8FFBA6 /* Debug */,
+				BD66D597504EB8D1BBD20D2D3229068A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
