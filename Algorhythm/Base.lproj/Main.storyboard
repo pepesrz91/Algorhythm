@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Playlist Master View Controller-->
+        <!--Playlists-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PlaylistMasterViewController" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                             <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lJh-T1-i0B"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="71D-qr-cbN"/>
+                    <navigationItem key="navigationItem" title="Playlists" id="71D-qr-cbN"/>
                     <connections>
                         <outlet property="aButton" destination="aze-bx-R28" id="kKP-Lq-PV2"/>
                     </connections>
@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="645" y="386"/>
         </scene>
-        <!--Playlist Detail View Controller-->
+        <!--Artists-->
         <scene sceneID="vWE-Hf-Vib">
             <objects>
                 <viewController id="QAn-Dv-6WJ" customClass="PlaylistDetailViewController" sceneMemberID="viewController">
@@ -55,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.67951049430244514" green="1" blue="0.80804960236301149" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="J4d-h0-A4u"/>
+                    <navigationItem key="navigationItem" title="Artists" id="J4d-h0-A4u"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9xp-XU-CTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
