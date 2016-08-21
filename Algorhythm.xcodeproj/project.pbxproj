@@ -17,9 +17,9 @@
 		345761351D68CAA500BCE071 /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345761341D68CAA500BCE071 /* AlgorhythmTests.m */; };
 		345761401D68CAA500BCE071 /* AlgorhythmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457613F1D68CAA500BCE071 /* AlgorhythmUITests.m */; };
 		3457614F1D68CECA00BCE071 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457614E1D68CECA00BCE071 /* PlaylistDetailViewController.m */; };
-		345761511D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */; };
-		345761521D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */; };
-		345761531D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */; };
+		34A40CC01D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CBF1D6A2F7E00F9C9B5 /* GoogleService-Info.plist */; };
+		34A40CC11D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CBF1D6A2F7E00F9C9B5 /* GoogleService-Info.plist */; };
+		34A40CC21D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CBF1D6A2F7E00F9C9B5 /* GoogleService-Info.plist */; };
 		6777E17C83922A6830712C10 /* libPods-AlgorhythmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +62,7 @@
 		345761411D68CAA500BCE071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3457614D1D68CECA00BCE071 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		3457614E1D68CECA00BCE071 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
-		345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (2).plist"; path = "../../../../Downloads/GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		34A40CBF1D6A2F7E00F9C9B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4A4B905F76CADABA3EA97FC7 /* Pods-Algorhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorhythm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algorhythm/Pods-Algorhythm.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE7D9FDBC335BB4595A94A7 /* Pods-AlgorhythmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmTests/Pods-AlgorhythmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D32BAA65A6EF73E6501C410 /* libPods-AlgorhythmUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 				345761261D68CAA500BCE071 /* Assets.xcassets */,
 				345761281D68CAA500BCE071 /* LaunchScreen.storyboard */,
 				3457612B1D68CAA500BCE071 /* Info.plist */,
-				345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */,
+				34A40CBF1D6A2F7E00F9C9B5 /* GoogleService-Info.plist */,
 				3457611A1D68CAA500BCE071 /* Supporting Files */,
 			);
 			path = Algorhythm;
@@ -299,8 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345761511D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */,
 				3457612A1D68CAA500BCE071 /* LaunchScreen.storyboard in Resources */,
+				34A40CC01D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */,
 				345761271D68CAA500BCE071 /* Assets.xcassets in Resources */,
 				345761251D68CAA500BCE071 /* Main.storyboard in Resources */,
 			);
@@ -310,7 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345761521D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */,
+				34A40CC11D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345761531D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */,
+				34A40CC21D6A2F7E00F9C9B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
