@@ -17,8 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GkO-j6-5ze">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="fkX-ba-rsP"/>
+                                    <constraint firstAttribute="height" constant="200" id="yMV-YT-8Qs"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-bx-R28">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
@@ -29,8 +36,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.24517104293569997" green="0.43541936289142991" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="aze-bx-R28" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HN8-DU-rLK"/>
-                            <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lJh-T1-i0B"/>
+                            <constraint firstItem="GkO-j6-5ze" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I4k-CX-9W6"/>
+                            <constraint firstItem="GkO-j6-5ze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hp5-U1-AD3"/>
+                            <constraint firstItem="aze-bx-R28" firstAttribute="top" secondItem="GkO-j6-5ze" secondAttribute="bottom" constant="8" id="rBo-Ux-0dJ"/>
+                            <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vFy-uD-UPC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="71D-qr-cbN"/>
