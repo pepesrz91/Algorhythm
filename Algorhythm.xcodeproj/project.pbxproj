@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31D94FE4EEE6E306F6266003 /* libPods-AlgorhythmUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D32BAA65A6EF73E6501C410 /* libPods-AlgorhythmUITests.a */; };
 		3457611C1D68CAA500BCE071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457611B1D68CAA500BCE071 /* main.m */; };
 		3457611F1D68CAA500BCE071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457611E1D68CAA500BCE071 /* AppDelegate.m */; };
 		345761221D68CAA500BCE071 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345761211D68CAA500BCE071 /* PlaylistMasterViewController.m */; };
@@ -21,8 +20,6 @@
 		34A40CC61D6A391F00F9C9B5 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */; };
 		34A40CC71D6A391F00F9C9B5 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */; };
 		34A40CCD1D6A445C00F9C9B5 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CCC1D6A445C00F9C9B5 /* GoogleService-Info (5).plist */; };
-		6777E17C83922A6830712C10 /* libPods-AlgorhythmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */; };
-		F240BCE73BDD7763D6684C94 /* libPods-Algorhythm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29425EFF82CD764E90FA57D4 /* libPods-Algorhythm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		02AB7E54DA3224E235D2D975 /* Pods-Algorhythm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorhythm.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algorhythm/Pods-Algorhythm.release.xcconfig"; sourceTree = "<group>"; };
-		29425EFF82CD764E90FA57D4 /* libPods-Algorhythm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Algorhythm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345761171D68CAA500BCE071 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3457611B1D68CAA500BCE071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3457611D1D68CAA500BCE071 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,12 +61,6 @@
 		34A40CC31D6A391F00F9C9B5 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
 		34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
 		34A40CCC1D6A445C00F9C9B5 /* GoogleService-Info (5).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (5).plist"; path = "../../../../Downloads/GoogleService-Info (5).plist"; sourceTree = "<group>"; };
-		4A4B905F76CADABA3EA97FC7 /* Pods-Algorhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorhythm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algorhythm/Pods-Algorhythm.debug.xcconfig"; sourceTree = "<group>"; };
-		5BE7D9FDBC335BB4595A94A7 /* Pods-AlgorhythmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmTests/Pods-AlgorhythmTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D32BAA65A6EF73E6501C410 /* libPods-AlgorhythmUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78285F1647F79B3EDD95C7C7 /* Pods-AlgorhythmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmUITests/Pods-AlgorhythmUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C802F9F1A898316240DCFCB /* Pods-AlgorhythmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmUITests/Pods-AlgorhythmUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D7D037820B8B396542BB8AE6 /* Pods-AlgorhythmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmTests/Pods-AlgorhythmTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F240BCE73BDD7763D6684C94 /* libPods-Algorhythm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6777E17C83922A6830712C10 /* libPods-AlgorhythmTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,26 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D94FE4EEE6E306F6266003 /* libPods-AlgorhythmUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B1F7604CA1A7DAF20B4B2D5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A4B905F76CADABA3EA97FC7 /* Pods-Algorhythm.debug.xcconfig */,
-				02AB7E54DA3224E235D2D975 /* Pods-Algorhythm.release.xcconfig */,
-				5BE7D9FDBC335BB4595A94A7 /* Pods-AlgorhythmTests.debug.xcconfig */,
-				D7D037820B8B396542BB8AE6 /* Pods-AlgorhythmTests.release.xcconfig */,
-				78285F1647F79B3EDD95C7C7 /* Pods-AlgorhythmUITests.debug.xcconfig */,
-				8C802F9F1A898316240DCFCB /* Pods-AlgorhythmUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3457610E1D68CAA500BCE071 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +95,6 @@
 				345761331D68CAA500BCE071 /* AlgorhythmTests */,
 				3457613E1D68CAA500BCE071 /* AlgorhythmUITests */,
 				345761181D68CAA500BCE071 /* Products */,
-				2B1F7604CA1A7DAF20B4B2D5 /* Pods */,
-				AD39B3A439775E3AC89584AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,16 +153,6 @@
 				345761411D68CAA500BCE071 /* Info.plist */,
 			);
 			path = AlgorhythmUITests;
-			sourceTree = "<group>";
-		};
-		AD39B3A439775E3AC89584AE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				29425EFF82CD764E90FA57D4 /* libPods-Algorhythm.a */,
-				00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */,
-				6D32BAA65A6EF73E6501C410 /* libPods-AlgorhythmUITests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,7 +564,6 @@
 		};
 		345761451D68CAA500BCE071 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A4B905F76CADABA3EA97FC7 /* Pods-Algorhythm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorhythm/Info.plist;
@@ -616,7 +575,6 @@
 		};
 		345761461D68CAA500BCE071 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02AB7E54DA3224E235D2D975 /* Pods-Algorhythm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorhythm/Info.plist;
@@ -628,7 +586,6 @@
 		};
 		345761481D68CAA500BCE071 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BE7D9FDBC335BB4595A94A7 /* Pods-AlgorhythmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
@@ -641,7 +598,6 @@
 		};
 		345761491D68CAA500BCE071 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7D037820B8B396542BB8AE6 /* Pods-AlgorhythmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
@@ -654,7 +610,6 @@
 		};
 		3457614B1D68CAA500BCE071 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78285F1647F79B3EDD95C7C7 /* Pods-AlgorhythmUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlgorhythmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -666,7 +621,6 @@
 		};
 		3457614C1D68CAA500BCE071 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C802F9F1A898316240DCFCB /* Pods-AlgorhythmUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlgorhythmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
