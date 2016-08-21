@@ -20,9 +20,7 @@
 		34A40CC51D6A391F00F9C9B5 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */; };
 		34A40CC61D6A391F00F9C9B5 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */; };
 		34A40CC71D6A391F00F9C9B5 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */; };
-		34A40CC91D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CC81D6A3F3700F9C9B5 /* GoogleService-Info (5).plist */; };
-		34A40CCA1D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CC81D6A3F3700F9C9B5 /* GoogleService-Info (5).plist */; };
-		34A40CCB1D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CC81D6A3F3700F9C9B5 /* GoogleService-Info (5).plist */; };
+		34A40CCD1D6A445C00F9C9B5 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A40CCC1D6A445C00F9C9B5 /* GoogleService-Info (5).plist */; };
 		6777E17C83922A6830712C10 /* libPods-AlgorhythmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */; };
 		F240BCE73BDD7763D6684C94 /* libPods-Algorhythm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29425EFF82CD764E90FA57D4 /* libPods-Algorhythm.a */; };
 /* End PBXBuildFile section */
@@ -68,7 +66,7 @@
 		3457614E1D68CECA00BCE071 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
 		34A40CC31D6A391F00F9C9B5 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
 		34A40CC41D6A391F00F9C9B5 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
-		34A40CC81D6A3F3700F9C9B5 /* GoogleService-Info (5).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (5).plist"; path = "../../../../Downloads/GoogleService-Info (5).plist"; sourceTree = "<group>"; };
+		34A40CCC1D6A445C00F9C9B5 /* GoogleService-Info (5).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (5).plist"; path = "../../../../Downloads/GoogleService-Info (5).plist"; sourceTree = "<group>"; };
 		4A4B905F76CADABA3EA97FC7 /* Pods-Algorhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorhythm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algorhythm/Pods-Algorhythm.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE7D9FDBC335BB4595A94A7 /* Pods-AlgorhythmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorhythmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorhythmTests/Pods-AlgorhythmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D32BAA65A6EF73E6501C410 /* libPods-AlgorhythmUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorhythmUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,8 +152,8 @@
 				345761231D68CAA500BCE071 /* Main.storyboard */,
 				345761261D68CAA500BCE071 /* Assets.xcassets */,
 				345761281D68CAA500BCE071 /* LaunchScreen.storyboard */,
+				34A40CCC1D6A445C00F9C9B5 /* GoogleService-Info (5).plist */,
 				3457612B1D68CAA500BCE071 /* Info.plist */,
-				34A40CC81D6A3F3700F9C9B5 /* GoogleService-Info (5).plist */,
 				3457611A1D68CAA500BCE071 /* Supporting Files */,
 			);
 			path = Algorhythm;
@@ -311,7 +309,7 @@
 				3457612A1D68CAA500BCE071 /* LaunchScreen.storyboard in Resources */,
 				345761271D68CAA500BCE071 /* Assets.xcassets in Resources */,
 				345761251D68CAA500BCE071 /* Main.storyboard in Resources */,
-				34A40CC91D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */,
+				34A40CCD1D6A445C00F9C9B5 /* GoogleService-Info (5).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +317,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A40CCA1D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A40CCB1D6A3F3700F9C9B5 /* GoogleService-Info (5).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
