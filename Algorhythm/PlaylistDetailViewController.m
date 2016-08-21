@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.buttonPressedLabel.text = self.segueLabelText;
 }
 
 - (void)didReceiveMemoryWarning {

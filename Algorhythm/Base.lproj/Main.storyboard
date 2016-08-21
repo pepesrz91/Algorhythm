@@ -23,7 +23,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QAn-Dv-6WJ" kind="push" id="u2Z-5N-6zV"/>
+                                    <segue destination="QAn-Dv-6WJ" kind="push" identifier="showPlaylistDetail" id="u2Z-5N-6zV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,6 +68,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="J4d-h0-A4u"/>
+                    <connections>
+                        <outlet property="buttonPressedLabel" destination="nKN-wy-kjS" id="XjJ-tk-FmY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9xp-XU-CTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -21,7 +21,6 @@
 		345761521D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */; };
 		345761531D68DFEE00BCE071 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 345761501D68DFEE00BCE071 /* GoogleService-Info (2).plist */; };
 		6777E17C83922A6830712C10 /* libPods-AlgorhythmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00381CDE3F6DE42A809932C5 /* libPods-AlgorhythmTests.a */; };
-		DF95A0F9DDC4476ACC3D65A4 /* libPods-Algorhythm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29425EFF82CD764E90FA57D4 /* libPods-Algorhythm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF95A0F9DDC4476ACC3D65A4 /* libPods-Algorhythm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
