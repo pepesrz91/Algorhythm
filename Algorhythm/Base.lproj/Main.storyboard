@@ -17,8 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="vr4-xg-ziF">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Yic-Ks-ExB"/>
+                                    <constraint firstAttribute="width" constant="200" id="uYP-68-uJi"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-bx-R28">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -29,8 +37,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.24517104293569997" green="0.43541936289142991" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="aze-bx-R28" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HN8-DU-rLK"/>
-                            <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lJh-T1-i0B"/>
+                            <constraint firstItem="aze-bx-R28" firstAttribute="top" secondItem="vr4-xg-ziF" secondAttribute="bottom" constant="8" id="0uW-7F-5Em"/>
+                            <constraint firstItem="aze-bx-R28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="51q-RM-WLZ"/>
+                            <constraint firstItem="vr4-xg-ziF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7J8-Ms-7hJ"/>
+                            <constraint firstItem="vr4-xg-ziF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iOZ-wW-h6B"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="71D-qr-cbN"/>
@@ -95,4 +105,7 @@
             <point key="canvasLocation" x="1177" y="386"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
