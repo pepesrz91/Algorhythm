@@ -18,8 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Playlist *playlist = [[Playlist alloc]initWithIdex:0];
-    self.playlistImageView0.image = playlist.playlistIcon;
+    for (NSUInteger index = 0; index < [self.playlistImageViews count]; index++) {
+        Playlist *playlist = [[Playlist alloc]initWithIdex:index];
+        UIImageView *playlistImageView = self.playlistImageViews[index];
+        playlistImageView.image = playlist.playlistIcon;
+    }
    
 }
 
@@ -31,9 +34,17 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"showPlaylistDetail"]){
         
-        PlaylistDetailViewController *playlistDetailController = (PlaylistDetailViewController *)segue.destinationViewController;
+        UIImageView *playlistImageView = (UIImageView *)[sender view];
         
-        playlistDetailController.playlist = [[Playlist alloc]initWithIdex:0];
+        if([self.playlistImageViews containsObject:playlistImageView]){
+            NSUInteger index = [self.playlistImageViews indexOfObject:playlistImageView];
+            PlaylistDetailViewController *playlistDetailController = (PlaylistDetailViewController *)segue.destinationViewController;
+            
+            playlistDetailController.playlist = [[Playlist alloc]initWithIdex:index];
+            
+        }
+        
+        
         
         
     }

@@ -39,7 +39,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="71D-qr-cbN"/>
                     <connections>
-                        <outlet property="playlistImageView0" destination="vr4-xg-ziF" id="JML-Vy-2vU"/>
+                        <outletCollection property="playlistImageViews" destination="vr4-xg-ziF" id="jy9-Ng-dgA"/>
                         <segue destination="QAn-Dv-6WJ" kind="push" identifier="showPlaylistDetail" id="SfC-XP-CYv"/>
                     </connections>
                 </viewController>
