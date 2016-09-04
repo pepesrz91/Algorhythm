@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     
-    self.buttonPressedLabel.text = self.segueLabelText;
+    
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
