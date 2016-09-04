@@ -66,21 +66,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="101-0f-46A">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="101-0f-46A">
                                 <rect key="frame" x="0.0" y="64" width="320" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="101-0f-46A" secondAttribute="height" multiplier="32:29" id="pdD-ZP-G5A"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TUb-cS-vqx">
+                                <rect key="frame" x="0.0" y="264" width="320" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Goes Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4U-cT-3CK">
+                                        <rect key="frame" x="20" y="15" width="119" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuE-Zo-K2Y">
+                                        <rect key="frame" x="0.0" y="-264" width="971" height="15"/>
+                                        <string key="text">This is a collection of my favorite songs to listen to when working out. It's got everything from fast cardio to power workout tunes. All the right fuel to get your engine going.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-IR-urd">
+                                        <rect key="frame" x="20" y="41" width="280" height="43"/>
+                                        <string key="text">This is a collection of my favorite songs to listen to when working out. It's got everything from fast cardio to power workout tunes. All the right fuel to get your engine going.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="n4U-cT-3CK" firstAttribute="top" secondItem="TUb-cS-vqx" secondAttribute="top" constant="15" id="Afi-2n-WJ2"/>
+                                    <constraint firstAttribute="trailing" secondItem="wAM-IR-urd" secondAttribute="trailing" constant="20" id="Deh-lG-Vhp"/>
+                                    <constraint firstAttribute="width" secondItem="TUb-cS-vqx" secondAttribute="height" multiplier="32:9" id="JHC-vZ-3pN"/>
+                                    <constraint firstItem="wAM-IR-urd" firstAttribute="top" secondItem="n4U-cT-3CK" secondAttribute="bottom" constant="5" id="MtF-Pi-O0f"/>
+                                    <constraint firstItem="wAM-IR-urd" firstAttribute="leading" secondItem="TUb-cS-vqx" secondAttribute="leading" constant="20" id="OSn-oQ-bn3"/>
+                                    <constraint firstItem="n4U-cT-3CK" firstAttribute="leading" secondItem="TUb-cS-vqx" secondAttribute="leading" constant="20" id="WSx-GP-rtZ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="TUb-cS-vqx" firstAttribute="top" secondItem="ZCe-BY-r9X" secondAttribute="bottom" constant="200" id="GYl-RL-rLo"/>
                             <constraint firstAttribute="trailing" secondItem="101-0f-46A" secondAttribute="trailing" id="HA2-aH-JdQ"/>
+                            <constraint firstItem="TUb-cS-vqx" firstAttribute="bottom" secondItem="101-0f-46A" secondAttribute="bottom" id="KNS-CK-34O"/>
+                            <constraint firstAttribute="trailing" secondItem="TUb-cS-vqx" secondAttribute="trailing" id="dvJ-OD-bf3"/>
                             <constraint firstItem="101-0f-46A" firstAttribute="top" secondItem="ZCe-BY-r9X" secondAttribute="bottom" id="nO6-p2-IXG"/>
+                            <constraint firstItem="TUb-cS-vqx" firstAttribute="leading" secondItem="Bgo-QM-IsL" secondAttribute="leading" id="p8k-Qv-pXj"/>
                             <constraint firstItem="101-0f-46A" firstAttribute="leading" secondItem="Bgo-QM-IsL" secondAttribute="leading" id="suM-4j-sZi"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="J4d-h0-A4u"/>
+                    <connections>
+                        <outlet property="playlistCoverImage" destination="101-0f-46A" id="Jjo-Kd-XR7"/>
+                        <outlet property="playlistDescription" destination="wAM-IR-urd" id="PVr-Xo-IEU"/>
+                        <outlet property="playlistTitle" destination="n4U-cT-3CK" id="TLo-Tq-oUq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9xp-XU-CTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

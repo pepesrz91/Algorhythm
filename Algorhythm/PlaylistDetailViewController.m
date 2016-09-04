@@ -19,6 +19,12 @@
     
     
     [super viewDidLoad];
+    if (self.playlist) {
+        self.playlistCoverImage.image = self.playlist.playlistIconLarge;
+        self.playlistCoverImage.backgroundColor = self.playlist.backgroundColor;
+        self.playlistTitle.text = self.playlist.playlistTitle;
+        self.playlistDescription.text = self.playlist.playlistDescription;
+    }
     // Do any additional setup after loading the view.
 }
 
