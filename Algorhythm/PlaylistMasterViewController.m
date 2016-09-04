@@ -21,7 +21,9 @@
     for (NSUInteger index = 0; index < [self.playlistImageViews count]; index++) {
         Playlist *playlist = [[Playlist alloc]initWithIdex:index];
         UIImageView *playlistImageView = self.playlistImageViews[index];
+        playlistImageView.backgroundColor = playlist.backgroundColor;
         playlistImageView.image = playlist.playlistIcon;
+        
     }
    
 }
