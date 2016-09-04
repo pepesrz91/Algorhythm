@@ -20,7 +20,7 @@
     [super viewDidLoad];
     Playlist *playlist = [[Playlist alloc]initWithIdex:0];
     self.playlistImageView0.image = playlist.playlistIcon;
-    [self.aButton setTitle:@"Press Me!" forState:UIControlStateNormal];
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,6 +37,10 @@
         
         
     }
+    
+}
+- (IBAction)showPlaylistDetail:(id)sender {
+    [self performSegueWithIdentifier:@"showPlaylistDetail" sender:sender];
     
 }
 
