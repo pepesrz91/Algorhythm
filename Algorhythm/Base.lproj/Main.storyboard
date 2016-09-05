@@ -26,30 +26,45 @@
                                     <outletCollection property="gestureRecognizers" destination="giK-Yw-jev" appends="YES" id="l6a-Ae-rgf"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rwI-gq-ufD">
-                                <rect key="frame" x="161" y="68" width="157" height="165"/>
-                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                            </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="E1v-9X-iIJ">
                                 <rect key="frame" x="2" y="235" width="157" height="165"/>
                                 <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
-                            </imageView>
-                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Yl9-qY-s4V">
-                                <rect key="frame" x="2" y="402" width="157" height="165"/>
-                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="CMm-Y7-9ML">
-                                <rect key="frame" x="161" y="402" width="157" height="165"/>
-                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wQb-fn-bBT" appends="YES" id="4iO-Va-qgr"/>
+                                </connections>
                             </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="CUJ-a8-VlL">
                                 <rect key="frame" x="161" y="235" width="157" height="165"/>
                                 <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sfI-iD-LYa" appends="YES" id="232-TD-0Jp"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Yl9-qY-s4V">
+                                <rect key="frame" x="2" y="402" width="157" height="165"/>
+                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wVN-NS-ZyJ" appends="YES" id="8hZ-g5-gGZ"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="CMm-Y7-9ML">
+                                <rect key="frame" x="161" y="402" width="157" height="165"/>
+                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uiC-fY-G6R" appends="YES" id="G0U-ZH-xIN"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rwI-gq-ufD">
+                                <rect key="frame" x="161" y="68" width="157" height="165"/>
+                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UmN-7Q-sHi" appends="YES" id="ReC-QB-2SW"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,6 +115,31 @@
                         <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="FeR-OE-Uop"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="UmN-7Q-sHi">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="gui-0M-PdY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wQb-fn-bBT">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="341-BK-pTK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="sfI-iD-LYa">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="PCU-KZ-for"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wVN-NS-ZyJ">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="QFR-vc-Pf0"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uiC-fY-G6R">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="3Eo-QC-aKy"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1709" y="386"/>
         </scene>
@@ -115,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="101-0f-46A">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="101-0f-46A">
                                 <rect key="frame" x="0.0" y="64" width="320" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="101-0f-46A" secondAttribute="height" multiplier="32:29" id="pdD-ZP-G5A"/>
@@ -150,10 +190,11 @@
                                 <constraints>
                                     <constraint firstItem="n4U-cT-3CK" firstAttribute="top" secondItem="TUb-cS-vqx" secondAttribute="top" constant="15" id="Afi-2n-WJ2"/>
                                     <constraint firstAttribute="trailing" secondItem="wAM-IR-urd" secondAttribute="trailing" constant="20" id="Deh-lG-Vhp"/>
-                                    <constraint firstAttribute="width" secondItem="TUb-cS-vqx" secondAttribute="height" multiplier="32:9" id="JHC-vZ-3pN"/>
+                                    <constraint firstAttribute="width" secondItem="TUb-cS-vqx" secondAttribute="height" multiplier="32:9" id="GTb-dC-b42"/>
                                     <constraint firstItem="wAM-IR-urd" firstAttribute="top" secondItem="n4U-cT-3CK" secondAttribute="bottom" constant="5" id="MtF-Pi-O0f"/>
                                     <constraint firstItem="wAM-IR-urd" firstAttribute="leading" secondItem="TUb-cS-vqx" secondAttribute="leading" constant="20" id="OSn-oQ-bn3"/>
                                     <constraint firstItem="n4U-cT-3CK" firstAttribute="leading" secondItem="TUb-cS-vqx" secondAttribute="leading" constant="20" id="WSx-GP-rtZ"/>
+                                    <constraint firstAttribute="height" constant="90" id="qfm-zn-Z9w"/>
                                 </constraints>
                             </view>
                         </subviews>

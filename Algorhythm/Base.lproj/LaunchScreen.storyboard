@@ -16,7 +16,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qa3-UX-Pd1">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TxI-cc-6G7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="gnY-LH-hQO">
+                                <rect key="frame" x="225" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="V5R-d6-bCl"/>
+                                    <constraint firstAttribute="width" constant="150" id="faC-0y-sHI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qa3-UX-Pd1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="5v2-aY-PMc"/>
+                            <constraint firstAttribute="trailing" secondItem="qa3-UX-Pd1" secondAttribute="trailing" id="9tb-5w-kiC"/>
+                            <constraint firstItem="qa3-UX-Pd1" firstAttribute="width" secondItem="TxI-cc-6G7" secondAttribute="width" id="BwH-Nv-nWl"/>
+                            <constraint firstItem="TxI-cc-6G7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DGd-SL-zkF"/>
+                            <constraint firstItem="TxI-cc-6G7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="J6r-oo-7xo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="qa3-UX-Pd1" secondAttribute="bottom" id="Su4-gf-Ih2"/>
+                            <constraint firstItem="qa3-UX-Pd1" firstAttribute="top" secondItem="TxI-cc-6G7" secondAttribute="bottom" id="VTQ-4V-ggR"/>
+                            <constraint firstItem="gnY-LH-hQO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Vzg-jc-6z9"/>
+                            <constraint firstItem="qa3-UX-Pd1" firstAttribute="height" secondItem="TxI-cc-6G7" secondAttribute="height" id="W2p-H6-19b"/>
+                            <constraint firstAttribute="trailing" secondItem="TxI-cc-6G7" secondAttribute="trailing" id="fW6-6h-iQC"/>
+                            <constraint firstItem="gnY-LH-hQO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vu6-jC-CSU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +53,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
 </document>
